@@ -1,0 +1,14 @@
+<div id="series_list">
+    <div class = 'tableHeder'>
+        <p class = 'tableCell'> Product Id</p>
+        <p class = 'tableCell'> Maturity</p>
+        <p class = 'tableCell'> Version </p>
+    </div>
+    {{#series}}
+    <div class = "series_item" id = {{iid}} data-iid = {{iid}} data-version-number = {{version_number}} data-maturuty = {{contract_maturity}}>
+       <p class = 'tableCell'> {{product_id}} </p>
+       <p class = 'tableCell'> {{contract_maturity}} </p>
+       <p class = 'tableCell'> {{version_number}} </p>
+    </div>
+    {{/series}}
+</div>

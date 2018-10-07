@@ -1,0 +1,41 @@
+#product_list{
+    float: left;
+    width: 10vw;
+    height:100vh;
+    overflow: scroll;
+}
+#series_list
+{
+    float: left;
+    width: 40vw;
+    height: 100vh;
+    overflow: scroll;
+}
+#estimate
+{
+    float: left;
+    width: 40vw;
+    height: 100vh;
+}
+.product_item , .series_item{
+    background-color: tan;
+    border: 2px solid red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tableCell{
+    padding: 5px;
+    margin: 0px;
+    width: 30%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.selected{
+    background-color: cadetblue;
+}
+
+.product_item:hover, .series_item:hover{
+    background-color: aquamarine;
+}
