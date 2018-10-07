@@ -2,7 +2,7 @@
 
 ## Build Instructions
  * npm install
- * npm run buld
+ * npm run build
 
 ## entry point 
 * dist/index.html
